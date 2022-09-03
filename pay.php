@@ -11,18 +11,18 @@ $enableSandbox = true;
 // PayPal settings. Change these to your account details and the relevant URLs
 // for your site.
 $paypalConfig = [
-    'client_id' => 'your paypal client id',
-    'client_secret' => 'your paypal secret id',
-    'return_url' => 'http://localhost/How-to-Integrate-PayPal-REST-API-Payment-Gateway-in-PHP-main/response.php',
-    'cancel_url' => 'http://localhost/How-to-Integrate-PayPal-REST-API-Payment-Gateway-in-PHP-main/payment-cancelled.html'
+    'client_id' => 'AeyyJXw1Z4QcHcraqSunCSnHiFipt9cjRhg7qb1SJeGqhpxuB7ul8p0kcDDqEL2yFQPfuISUS0hVZP63',
+    'client_secret' => 'EAM8KrXXEsLAfvwuvzk6Q2FNs9mDgqqGgSIRmb1j91_ru7t_uCJc4P7JEO0BmsAS7ofN6W1kVWTn_jLY',
+    'return_url' => 'http://localhost/Paypal_Api/response.php',
+    'cancel_url' => 'http://localhost/Paypal_Api/payment-cancelled.html'
 ];
 
 // Database settings. Change these for your database configuration.
 $dbConfig = [
-    'host' => 'localhost',
-    'username' => 'root',
-    'password' => '',
-    'name' => 'codeat21'
+    'host' => '151.106.124.51',
+    'username' => 'u188140722_instamojo',
+    'password' => 'Admin@123',
+    'name' => 'u188140722_instamojo'
 ];
 
 $apiContext = getApiContext($paypalConfig['client_id'], $paypalConfig['client_secret'], $enableSandbox);
