@@ -1,5 +1,5 @@
 <?php 
-include_once 'db_connection.php'; 
+include("config.php");
 ?>
 <!DOCTYPE html>
 <html>
